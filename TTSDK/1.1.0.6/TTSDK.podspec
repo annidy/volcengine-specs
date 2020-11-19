@@ -132,7 +132,7 @@ Pod::Spec.new do |spec|
       ]
       subspec.vendored_libraries = [
         'TTSDK/TTVideoEngine/**/*.a',
-        'TTSDK/TTTopSignature/**/*.a',
+        # 'TTSDK/TTTopSignature/**/*.a',
         'TTSDK/MDLMediaDataLoader/**/*.a',
       ]
       subspec.dependency 'TTSDK/Core'
