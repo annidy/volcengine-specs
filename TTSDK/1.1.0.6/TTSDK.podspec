@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
 
     spec.subspec 'TTFFmpeg' do |subspec|
       subspec.vendored_libraries = [
-        'TTSDK/boringssl/**/*.a',
+        # 'TTSDK/boringssl/**/*.a',
         'TTSDK/TTFFmpeg/**/*.a',
       ]
       subspec.frameworks = [
@@ -61,8 +61,8 @@ Pod::Spec.new do |spec|
         'TTSDK/TTPlayerSDK/TTPlayerSDK/TTPlayer/TTPlayerDef.h',
       ]
       subspec.vendored_libraries = [
-        'TTSDK/TTPlayerSDK/**/*.a',
-        'TTSDK/audiosdk/**/*.a',
+        # 'TTSDK/TTPlayerSDK/**/*.a',
+        # 'TTSDK/audiosdk/**/*.a',
       ]
       subspec.resources = [
         'TTSDK/TTPlayerSDK/TTPlayerSDK/Assets/ttplayer.metallib',
